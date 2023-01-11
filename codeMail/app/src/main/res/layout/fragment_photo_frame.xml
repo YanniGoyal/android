@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ui.photoFrame.photoFrame1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/pic0"
+            android:layout_width="298dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:src="@drawable/one" />
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="298dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:alpha="0"
+            android:src="@drawable/two" />
+
+        <ImageButton
+            android:id="@+id/prev_button"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="150dp"
+            android:minHeight="48dp"
+            android:src="@drawable/icon_prev" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"
+            android:minHeight="48dp"
+            android:src="@drawable/icon_next" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:padding="50dp"
+            android:text="Nature"
+            android:textColor="#EFE5E5"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</FrameLayout>
