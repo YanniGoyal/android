@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Experiment App</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="open_dialer">Open Dialer</string>
+    <string name="open_whatsapp">Open Whatsapp</string>
+    <string name="open_map">Open Map</string>
+    <string name="location">Location</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="delete">Delete</string>
+</resources>
